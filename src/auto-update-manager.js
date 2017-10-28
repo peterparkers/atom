@@ -8,7 +8,18 @@ export default class AutoUpdateManager {
     this.subscriptions = new CompositeDisposable()
     this.emitter = new Emitter()
   }
-
+//This is a comment
+  //Hahahaha
+  //My name is Frank
+  // You know me
+  //Eieie
+  //But this time
+  // I wanna do this
+  //Do what ?
+  // do thing like this
+  // EIEiEIEi
+  // This is a joke
+  // You know
   initialize () {
     this.subscriptions.add(
       this.applicationDelegate.onDidBeginCheckingForUpdate(() => {
